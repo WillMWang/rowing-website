@@ -1,0 +1,571 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-7">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Genius Hour Website</title>
+	
+ <div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>If you have a small device</strong>, please view the website in landscape mode for the best viewing experience</div>
+	<style>	
+.alert {
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+h1,h2 {
+    font-family: serif; 
+	border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 3px;
+    color:black;            
+}
+            
+h1:hover,h2:hover{
+    background-color: rgb(142, 245, 218);
+}
+#main{
+	margin: auto;
+    height: auto;
+    border: 21px groove rgb(168, 185, 207) ;
+    text-align: center;
+	overflow-y:auto;
+    color:black;
+}
+
+title{
+     font-family:sans-serif;
+     font-size:1.5em;
+}
+            
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Karma', serif;
+    color:black;
+    font-size:17px;
+}
+
+.tablink {
+    background-color: rgb(70, 121, 170);
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 16px;
+    font-size: 17px;
+    width:33.3335%;
+
+}
+
+.tablink:hover {
+    background-color: rgb(95, 162, 226);
+}
+
+.tabcontent {
+    display: none;
+    padding: 50px 10px;
+    height: auto;
+    background-color: white;
+	margin: auto;
+	height: auto;
+    text-align: center;
+    color:black;
+    
+}
+
+.border{
+	padding:1px;
+    border:groove;
+    height:8em;
+}
+table {
+    font-family: 'karma', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color:black
+}
+
+td{
+    border: 1px solid black;
+    text-align: left;
+    width:auto;
+    padding: 5px;
+    font-size:16px;
+}
+tr:nth-child(even) {
+    background-color: rgb(151, 185, 219);
+    }
+tr:nth-child(odd){
+	background-color:rgb(119, 136, 153);
+}
+    
+#TTable{
+	background-color:rgb(83, 139, 193);
+}
+
+th{
+	border: 1px solid black;
+    text-align: left;
+    width:2px;
+    padding:3px;
+}
+
+.verticalpic {
+	height:140px;
+    }
+    
+    #float{
+    height:120px;
+   float:left;
+    }
+    #clear{
+    clear:left;
+    }
+        </style>
+ 
+    </head>
+    <body id="main">
+   
+	<button class="tablink" onclick="openPage('Information', this, '#2a5782')"id="defaultOpen">Information
+</button>
+    
+<button class="tablink" onclick="openPage('Timeline', this, '#2a5782')" >Timeline</button>
+
+<button class="tablink" onclick="openPage('Bonus', this, '#2a5782')">Bonus </button>
+
+
+<div id="Information" class="tabcontent">
+
+
+  	<h1 class="title">Rowing,<em>"a sport which involves propelling a boat on water using oars"</em> </h1>
+        
+        <p>Rowing is the act of propelling a boat through the water with the use of oars. In a rowing shell, the rower sits on a seat that moves both forward and backward. This enables the rower to bend and straighten his or her legs increasing the length of each stroke.</p>
+       
+        <h2>Types of rowing</h2>
+        
+        <p>The sport has two basic types of rowing: sweep rowing and sculling. In sweep rowing, athletes hold one oar with both hands while in sculling, the athletes have two oars, one in each hand.</p>
+   <img class = "border"src="https://goo.gl/T8fhZP">
+	<img class = "border" src="https://goo.gl/CBaSwt">
+        <h2>Reaons to row</h2> 
+        <p>People sometimes wonder why they would choose rowing as a sport they would want to pursue so below are some reasons why it should be chosen
+</p>
+<ul>
+  <li>Rowing Is a full body workout and a recreational activity which offers a complete physical and mental workout</li>
+  <li>Rowing puts you in a refreshing and beautiful environment while you are on the water</li>
+  <li>all ages can learn to row and are recognized as an effective means of therapeutic conditioning</li>
+  <li>The sport is low impact and doesn't put large amounts of pressure on specific joints </li>
+  <li>Rowing is just a fun sport to participate in and that it helps take your mind off stressful topics when you are out on the water</li>
+
+</ul>  
+        
+        <h2>The types of boats</h2>
+        
+        <p>There are eight types of boats in the sport which can be customized or changed at one's consent and can contain an extra person which is called the Coxswain who is responsible for steering the boat, safety reasons, coordinating the power and controlling the rhythm of the rowers. Coxswains are always present in larger boats but sometimes aren't present in smaller boats to lessen the overall weight of the boat</p>
+        <table>
+        	<thead>
+            	<tr id = "TTable">
+    			 	<th class = "spacing">Boat type</th>
+    				<th class = "spacing">Description</th>
+   					<th class = "spacing">Example</th>
+  				 </tr>
+  				 <tr>
+   				 	<td>The Twenty Four</td>
+    				<td>This strange boat is composed 24 seats and 48 oars and can be broken down into multiple parts for transporting it to multiple locations.This boat when assembled weighs around 925 pounds and is 144 feet in length</td>
+    				<td><img class = "verticalpic" src="https://goo.gl/bAx4r7"></td>
+  				</tr>
+   				<tr>
+    				<td>The Octuple</td>
+   				 	<td>The Octuple is an eight rower shell that is rarely seen at Olympic events which has an extra seat for the coxswain and that each rower has to control two oars. This boat weighs around 211.2 pounds and is approximately 60 feet long</td>
+    				<td><img class = "verticalpic" src="https://goo.gl/CKMhrc"></td>
+  			</tr>
+  			<tr>
+   				 <td>The Eight</td>
+    				<td>The Eight is an eight rower shell with an extra seat at the front of the Coxswain and is the most commonly used shell with each rower controlling one oar. This boat weighs about 210 lbs and is approximately 60 feet long 
+</td>
+   				 <td><img class = "verticalpic" src="https://goo.gl/L2Y72Z"></td>
+  			</tr>
+ 			<tr>
+    				<td>The Quad</td>
+   					<td>The Quad is a four rower shell that will sometime have a seat for the coxswain and that each rower controls two oars. The boat weighs around 115 pounds and is 42 feet long</td>
+    				<td><img class = "verticalpic" src="https://goo.gl/PuYitL"></td>
+  			</tr>
+  			<tr>
+   					<td>The Four</td>
+    				<td>The Four is a four rower shell but the only difference is that each rower only controls one oar. This boat weighs about 112 pounds and is around 42 feet long</td>
+    				<td><img class = "verticalpic" src="https://goo.gl/jPKPEq"></td>
+  			</tr>
+  			<tr>
+    				<td>The Triple</td>
+    				<td>This strange boat doesn't require a coxswain but isn't seen at Olympic events and isn't recognized as a modern shell but fits three rowers which have to handle two oars
+</td>
+    				<td><img class = "verticalpic" src="https://goo.gl/WFQSXU"></td>
+ 			</tr>
+  			<tr>
+    				<td>The Double</td>
+    				<td>The Double is a two rower shell that has no Coxswain and that the two rowers have to handle two oars each. This boat is 60 pounds and is 32 feet long</td>
+    				<td><img class = "verticalpic" src="https://goo.gl/ML4iRo"></td>
+ 		 	</tr>
+  			 <tr>
+    				<td>The Sweeping Double</td>
+    				<td>The Sweeping Double is a two rower shell that also has no Coxswain and the two rowers have to handle one oar. This boat is around 32 feet and weighs around 60 pounds.</td>
+    				<td><img class = "verticalpic" src="https://goo.gl/8mDiqf"></td>
+ 			 </tr>
+  			 <tr>
+    				<td>The Single</td>
+    				<td>The Single is a one rower shell that has no Coxswain and that the single rower must handle the boat by themselves. This boat weighs around 30 pounds and is 26 feet long.</td>
+    				<td><img class = "verticalpic" src="https://goo.gl/bE1zY9"></td>
+ 			 </tr>
+      		</thead>
+        </table>
+       <p><a href="https://docs.google.com/document/d/1H3o3cHNsFays1e9bDoLadmN6dTSL_I1jLsXlOd3y3GQ/edit?usp=sharing"target="_blank">Bibliography</a></p>
+
+</div>
+
+
+<div id="Timeline" class="tabcontent">
+ <h1 class = "title">The history of rowing<em>"a essential part of human history for as long as there has been a need for transportation"</em></h1>
+ 
+  <p>The history of Rowing has been rich and rather started off as means of transportation and ways of war during B.C. but later became recognized as a sport mostly during the 1800s and is currently growing in popularity. This is a timeline that contains information about the main history of the sport. During major wars (World War I and II, rowing was mostly suspended) </p>
+   <table>
+        	<thead>
+            	<tr>
+    <th class = "spacing">Year</th>
+    <th class = "spacing">Description</th>
+  </tr>
+  <tr>
+    <td>B.C.</td>
+    <td>Oared vessels began to be used for transport, commerce, fishing, and war, but, while there are occasional references in classical texts to boat racing but wasn't common before 1800. </td>
+    </tr>
+    
+    <tr>
+    <td>1274</td>
+       <td>The first reference to a "regata" appeared in Venetian documentation. Their dependence on water transport provided a natural venue for the evolution of medieval and Renaissance water festivals.</td>
+    
+    </tr>
+    
+    <tr>
+    <td>1815</td>
+	<td> Oxfords first college boat club was organized at Oxford University in 1815. </td>
+    
+    </tr>
+    
+    <tr>
+    <td>1827</td>
+    <td> The first boat club for Cambridge was organised at Cambridge university in 1827. </td>
+    
+    </tr>
+    
+     <tr>
+    <td>1829</td>
+    <td> In their first contest, Oxford defeated Cambridge in an eight-oared boat in front of 20,000 spectators at Henley-on-Thames, England (June 10), and continues to be an annual event
+ </td>
+    
+    </tr>
+    
+     <tr>
+    <td>1831 </td>
+    <td>The first English professional sculling championship race was held between C. Campbell and J. Williams, in London.
+ </td>
+    
+    </tr>
+    
+       <tr>
+    <td>1839 </td>
+     <td>The first Henley Regatta was held, establishing the "Henley" distance of about a mile and a quarter while the alternative was a classic four-mile distance.
+ </td>
+    
+    </tr>
+    
+      <tr>
+    <td>1869</td>
+    <td>Oxford defeated Harvard in coxed-fours on the Thames before 500,000 spectators; broad news coverage of the race caused explosion of interest in rowing and in the formation of hundreds of boat clubs in the U.S.
+ </td>
+    
+    </tr>
+    
+     <tr>
+    <td>1870</td>
+     <td>School rowing programs were established in the U.S. at schools such as St. Paul's while Yale became the first U.S. college crew to use a slide which utilizes greased runners in the Harvard-Yale boat race
+ </td>
+    
+    </tr>
+    
+     <tr>
+    <td>1871</td>
+	<td>Amherst, Brown, Bowdoin, and Harvard formed the Rowing Association of American Colleges.
+ </td>
+    
+    </tr>
+    
+     <tr>
+    <td>1875</td>
+    <td>During 1875, the Yale captain, Bob Cook, learned the English style of stroking at Oxford and introduced it to U.S. college rowing, where it became the dominant stroke in college programs while Oxford and Cambridge used sliding seats in the boat race for the first time
+    
+    </tr>
+    
+      <tr>
+    <td>1876  </td>
+    <td>Michael Davis patented the sliding rigger 
+ </td>
+    
+    </tr>
+    
+      <tr>
+    <td>1880</td>
+    <td>Michael Davis patented the "Leg-O-Mutton" blade, a predecessor design to today’s hatchet shape, as well as the steering foot stretcher</td>
+    
+    </tr>
+    
+      <tr>
+    <td>1882 </td>
+    <td>The Amateur Rowing Association was formed by the Oxbridge wing of English rowing.
+ </td>
+    
+    </tr>
+    <tr>
+    <td>1883   </td>
+    <td>Rowing colleges other than Harvard and Yale joined to establish an Intercollegiate Association.
+ </td>
+    
+    </tr>
+    <tr>
+    <td>1885  </td>
+    <td>Charles Courtney became the first professional oarsman to successfully transition to permanent employment as a college coach.
+ </td>
+    
+    </tr>
+    <tr>
+    <td>1890</td>
+    <td>English oarsmen established the National Amateur Rowing Association (NARA) as a more inclusive body than the ARA.
+ </td>
+    
+    </tr>
+    <tr>
+    <td>1892</td>
+    <td>ZLAC(the first U.S. women’s rowing club), was established in San Diego, California and FISA(The Federation Internationale des Societes d’Aviron) was also formed in 1982 and became the first international amateur team sport governing the body.
+ </td>
+    
+    </tr>
+    <tr>
+    <td>1893</td>
+    <td>FISA held its first European rowing championships, in Orta, Italy while The first women’s collegiate "boating society" was organized in England, at Cambridge Newnham College.
+ </td>
+    
+    </tr>
+    <tr>
+    <td>1896</td>
+    <td>F.J. Furnivall founded the Hammersmith Sculling Club for Girls and Men due to his belief that "the exclusion of women from the aquatic sport was damaging"
+ </td>
+    
+    </tr>      <tr>
+    <td>1903  </td>
+    <td>The American Rowing Association was formed.
+ </td>
+    
+    </tr>
+    <tr>
+    <td>1916 </td>
+    <td>Lightweight rowing was first introduced to U.S. colleges by Joe Wright at the University of Pennsylvania.
+ </td>
+    
+    </tr>      <tr>
+    <td>1919  </td>
+    <td>The first women’s collegiate eight-oared race took place in England between Cambridge Newnham College Boat Club and the London School of Medicine.
+ </td>
+    
+    </tr>
+      <tr>
+    <td>1935 </td>
+    <td>The Scholastic Rowing Association of America was organized.
+ </td>
+    
+    </tr>
+    <tr>
+    <td>1941  </td>
+    <td>The Cambridge University Women’s Boat Club was formed
+ </td>
+    
+    </tr>
+    <tr>
+    <td>1951  </td>
+    <td>The first FISA sponsored regatta for women was held in conjunction with the men’s European Championships in Macon, France
+ </td>
+    
+    </tr>
+    <tr>
+    <td>1954  </td>
+    <td>The first European rowing championships for women were held, in Amsterdam.
+ </td>
+    
+    </tr>
+    <tr>
+    <td>1959  </td>
+    <td> The tulip blade was popularized at the European Championships in Macon.
+ </td>
+    
+    </tr>
+    <tr>
+    <td>1960 </td>
+    <td>Oxford introduced spoon oars to the Boat Race.
+ </td>
+    
+    </tr>
+    <tr>
+    <td>1961  </td>
+    <td>Cambridge trained for the Boat Race utilizing an unwieldy and primitive device developed in Australia and called an "ergometer."
+ </td>
+    
+    </tr>
+    <tr>
+    <td>1962  </td>
+ <td>The first FISA world rowing championships were held, in Lucerne, Switzerland. The National Women's Rowing Association (NWRA) was formed by Joanne Wright Iverson, Ted Nash, and Ed Lickiss.
+ </td>
+    
+    </tr>
+    <tr>
+    <td>1965  </td>
+    <td>The first Head of the Charles was held in Cambridge/Boston, Massachusetts, and has since grown to be the biggest regatta in the U.S.
+ </td>
+    
+    </tr>
+    <tr>
+    <td>1966  </td>
+    <td>The National Rowing Foundation was established to support U.S. Rowing. The first National Women's Rowing Association (NWRA) National Championship was held in Seattle Washington.
+ </td>
+    
+    </tr>
+    <tr>
+    <td>1967  </td>
+    <td>The first FISA Junior Regatta was held in Ratzeburg, Germany.
+ </td>
+    
+    </tr>
+     <tr>
+    <td>1970  </td>
+    <td>The introduction of the Gamut ergometer to U.S. circles initiated changes in training and selection processes in most rowing programs.
+ </td>
+    
+    </tr>
+     <tr>
+    <td>1980   </td>
+    <td>Vespoli boats became the standard of choice for most U.S. rowing programs.
+ </td>
+    
+    </tr>
+     <tr>
+    <td>1981   </td>
+    <td>The Concept II erg was put on the market and The NAAO changed its name to the United States Rowing Association and major constitutional changes were ratified.
+ </td>
+    
+    </tr>
+     <tr>
+    <td>1990   </td>
+    <td>The World Cup was established by FISA for men’s and women’s singles.
+ </td>
+    
+    </tr>
+     <tr>
+    <td>1991  </td>
+    <td>"hatchet" oar blades were first introduced by Dreissigacker
+ </td>
+    
+    </tr>
+     <tr>
+    <td>2000</td>
+    <td>Steve Redgrave was the first person to win his fifth Olympic gold medal in five consecutive Olympics, an accomplishment never achieved in any endurance sport
+ </td>
+    
+    </tr>
+    </thead>
+    </table>
+</div>
+
+<div id="Bonus" class="tabcontent">
+  <h1 class = "title">The ergometer,<em>"a machine measures work or energy used during a period of time"</em></h1>
+  <p>An ergometer is a machine that is the most commonly used for rowing on land and is translated into "a measure of work"</p>
+   <table>
+        	<thead>
+            	<tr id = "TTable">
+    <th class = "spacing">Type of Erg</th>
+    <th class = "spacing">Description</th>
+    <th class = "spacing">Example</th>
+  </tr>
+  <tr>
+    <td>Water resistance erg</td>
+    <td>This erg contains a paddle revolving in an enclosed tank of water. The mass and drag of the moving water create the resistance similar to being on the water</td>
+    <td><img class = "verticalpic" src="https://goo.gl/KKfLVV"></td>
+  </tr>
+  <tr> <td>Air resistance erg</td> 
+  <td>This erg consists of a fan flywheel in a container and when a rower pulls on the handle, it causes the flywheel to spin and create wind. This resistance is variable due to the fact that the user controls the resistance level by how hard they row.</td> <td><img class = "verticalpic" src="https://goo.gl/6dvhkN"></td> </tr>
+  
+  <tr> <td>Magnetic Resistance erg</td>
+  <td>This erg uses a magnetic brake system that can be moved to change resistance. Magnetic resistance ergs produce no friction and are almost virtually silent
+</td> <td><img class = "verticalpic" src="https://goo.gl/a1oYqj"></td> </tr>
+  <tr> <td>Air and Magnetic Resistance Erg</td>
+  
+<td>This erg has a blend of both air and magnetic resistance. Rowers have the ability to adjust magnetic tension and also has the ability to row faster and feel the added air resistance.</td> <td><img class = "verticalpic" src="https://goo.gl/rgyZXC"></td> </tr>
+  </thead>
+  </table>
+  <h2>The Rowing tank</h2>
+  
+  <p><img id = "float" src="https://pbs.twimg.com/media/DTIG9KeWAAA99P5.jpg">A rowing tank is an indoor facility which attempts to mimic the conditions rowers face on open water. Rowers sit in fixed rowing positions, with a channel of water to either side of the 'boat'. Rowing tanks are primarily used for off-season rowing, muscle-specific conditioning, and technique training, or when bad weather does not allow for open water training.
+  
+  </p>
+  
+  
+  <h2 id = "clear"> How to row </h2>
+        <p> Rowing technique contains the catch, the drive, the finish and the recovery. The catch is the initial part of the stroke, The drive is where the power is generated while the finish is the final part of the stroke. Then, the recovery is the initial phase to begin taking a new stroke.These phrases are repeated until a duration of time or distance is completed</p>
+        
+        <img src="https://reygif.com/media/maquina-remo-15800.gif" alt="rowing man" style="width:250px">
+        
+       <p><strong>The Catch: </strong>This is when the knees are bent with the shins in a vertical position. The back should be roughly parallel to the thigh without leaning too far and the arms and shoulders should be extended forward and relaxed.</p>
+       
+        <p><strong>The Drive: </strong>This is when the legs are extended but the body remains in the catch posture. As the legs continue to full extension, the rower engages the core to begin the motion of the body levering backward. When the legs are flat, the rower begins to pull the handle toward the chest.</p>
+        
+         <p><strong>The Finish: </strong>The legs are at full extension and flat while the arms are in full contraction with the elbows bent and hands against the chest.The back of the rower is still maintained in an upright posture.</p>
+         
+          <p><strong>The Recovery: </strong>The recovery is a slow slide back to the initial part of the stroke with the actions are in reverse order of the drive. It gives the rower time to recover from the previous stroke. </p>
+</div>
+
+		<script>
+function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+
+}
+
+document.getElementById("defaultOpen").click();
+</script>    
+</body></html>
+
+
+
